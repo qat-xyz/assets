@@ -1,5 +1,89 @@
 [
   {
+    "name": "Solana Mainnet",
+    "chainId": -1,
+    "infoURL": "https://solana.com",
+    "nativeCurrency": {
+      "name": "Solana",
+      "symbol": "SOL",
+      "decimals": 9
+    },
+    "chain": "SOL",
+    "color": "#1de4b3",
+    "rpc": [
+      "https://api.mainnet-beta.solana.com",
+      "http://rpc.solscan.com"
+    ],
+    "explorers": [
+      {
+        "name": "solscan",
+        "url": "https://solscan.io"
+      },
+      {
+        "name": "explorer.solana",
+        "url": "https://explorer.solana.com"
+      }
+    ],
+    "isTest": false,
+    "type": "SOLANA"
+  },
+  {
+    "name": "Solana Devnet",
+    "chainId": -2,
+    "infoURL": "https://solana.com",
+    "nativeCurrency": {
+      "name": "Solana",
+      "symbol": "SOL",
+      "decimals": 9
+    },
+    "chain": "SOL",
+    "color": "#1de4b3",
+    "rpc": [
+      "https://api.devnet.solana.com",
+      "https://api.devnet.solana.com"
+    ],
+    "explorers": [
+      {
+        "name": "solscan",
+        "url": "https://solscan.io/?cluster=devnet"
+      },
+      {
+        "name": "explorer.solana",
+        "url": "https://explorer.solana.com/?cluster=devnet"
+      }
+    ],
+    "isTest": true,
+    "type": "SOLANA"
+  },
+  {
+    "name": "Solana Testnet",
+    "chainId": -3,
+    "infoURL": "https://solana.com",
+    "nativeCurrency": {
+      "name": "Solana",
+      "symbol": "SOL",
+      "decimals": 9
+    },
+    "chain": "SOL",
+    "color": "#1de4b3",
+    "rpc": [
+      "https://api.testnet.solana.com",
+      "https://api.testnet.solana.com"
+    ],
+    "explorers": [
+      {
+        "name": "solscan",
+        "url": "https://solscan.io/?cluster=devnet"
+      },
+      {
+        "name": "explorer.solana",
+        "url": "https://explorer.solana.com/?cluster=devnet"
+      }
+    ],
+    "isTest": true,
+    "type": "SOLANA"
+  },
+  {
     "name": "Ethereum Mainnet",
     "chainId": 1,
     "infoURL": "https://ethereum.org",
@@ -1050,21 +1134,21 @@
   {
     "name": "Cronos zkEVM Testnet",
     "chainId": 282,
-    "infoURL": "https://docs.cronos.org/cronos-zkevm-chain/introduction-to-cronos-zkevm-chain-testnet",
+    "infoURL": "https://docs-zkevm.cronos.org",
     "nativeCurrency": {
       "name": "Cronos zkEVM Test Coin",
-      "symbol": "TCRO",
+      "symbol": "zkTCRO",
       "decimals": 18
     },
     "chain": "CronosZkEVMTestnet",
     "color": "#197fe5",
     "rpc": [
-      "https://rpc-zkevm-t0.cronos.org"
+      "https://testnet.zkevm.cronos.org"
     ],
     "explorers": [
       {
         "name": "Cronos zkEVM Testnet Explorer",
-        "url": "https://zkevm-t0.cronos.org/explorer",
+        "url": "https://explorer.zkevm.cronos.org/testnet",
         "standard": "none"
       }
     ],
@@ -2541,7 +2625,7 @@
     "explorers": [
       {
         "name": "ZetaChain Mainnet Explorer",
-        "url": "https://explorer.mainnet.zetachain.com",
+        "url": "https://explorer.zetachain.com",
         "standard": "none"
       }
     ],
@@ -2681,7 +2765,9 @@
     "color": "#d89a26",
     "rpc": [
       "https://evmos-testnet.lava.build",
-      "https://eth.bd.evmos.dev:8545"
+      "https://eth.bd.evmos.dev:8545",
+      "https://evmos-testnet-evm-rpc.publicnode.com",
+      "wss://evmos-testnet-evm-rpc.publicnode.com"
     ],
     "explorers": [
       {
@@ -2708,8 +2794,8 @@
     "rpc": [
       "https://evmos.lava.build",
       "wss://evmos.lava.build/websocket",
-      "https://evmos-evm.publicnode.com",
-      "wss://evmos-evm.publicnode.com"
+      "https://evmos-evm-rpc.publicnode.com",
+      "wss://evmos-evm-rpc.publicnode.com"
     ],
     "explorers": [
       {
@@ -3719,7 +3805,8 @@
       "https://rpc.ankr.com/blast",
       "https://blast.din.dev/rpc",
       "https://blastl2-mainnet.public.blastapi.io",
-      "https://blast.blockpi.network/v1/rpc/public"
+      "https://blast.blockpi.network/v1/rpc/public",
+      "https://blast-rpc.publicnode.com"
     ],
     "explorers": [
       {
@@ -4200,6 +4287,84 @@
       }
     ],
     "isTest": false,
+    "type": "EVM"
+  },
+  {
+    "name": "zkLink Nova Mainnet",
+    "chainId": 810180,
+    "infoURL": "https://zklink.io",
+    "nativeCurrency": {
+      "name": "Ether",
+      "symbol": "ETH",
+      "decimals": 18
+    },
+    "chain": "ETH",
+    "color": "#04d49c",
+    "rpc": [
+      "https://rpc.zklink.io",
+      "wss://rpc.zklink.io"
+    ],
+    "explorers": [
+      {
+        "name": "zkLink Nova Block Explorer",
+        "url": "https://explorer.zklink.io",
+        "icon": "zklink-nova",
+        "standard": "EIP3091"
+      }
+    ],
+    "isTest": false,
+    "type": "EVM"
+  },
+  {
+    "name": "zkLink Nova Sepolia Testnet",
+    "chainId": 810181,
+    "infoURL": "https://zklink.io",
+    "nativeCurrency": {
+      "name": "Ether",
+      "symbol": "ETH",
+      "decimals": 18
+    },
+    "chain": "ETH",
+    "color": "#04d49c",
+    "rpc": [
+      "https://sepolia.rpc.zklink.io",
+      "wss://sepolia.rpc.zklink.io"
+    ],
+    "explorers": [
+      {
+        "name": "zkLink Nova Block Explorer",
+        "url": "https://sepolia.explorer.zklink.io",
+        "icon": "zklink-nova",
+        "standard": "EIP3091"
+      }
+    ],
+    "isTest": true,
+    "type": "EVM"
+  },
+  {
+    "name": "zkLink Nova Goerli Testnet",
+    "chainId": 810182,
+    "infoURL": "https://zklink.io",
+    "nativeCurrency": {
+      "name": "Ether",
+      "symbol": "ETH",
+      "decimals": 18
+    },
+    "chain": "ETH",
+    "color": "#04d49c",
+    "rpc": [
+      "https://goerli.rpc.zklink.io",
+      "wss://goerli.rpc.zklink.io"
+    ],
+    "explorers": [
+      {
+        "name": "zkLink Nova Block Explorer",
+        "url": "https://goerli.explorer.zklink.io",
+        "icon": "zklink-nova",
+        "standard": "EIP3091"
+      }
+    ],
+    "isTest": true,
     "type": "EVM"
   },
   {
