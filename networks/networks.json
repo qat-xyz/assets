@@ -1,7 +1,7 @@
 [
   {
     "name": "Solana Mainnet",
-    "chainId": -1,
+    "chainId": 1,
     "infoURL": "https://solana.com",
     "nativeCurrency": {
       "name": "Solana",
@@ -29,7 +29,7 @@
   },
   {
     "name": "Solana Devnet",
-    "chainId": -2,
+    "chainId": 2,
     "infoURL": "https://solana.com",
     "nativeCurrency": {
       "name": "Solana",
@@ -57,7 +57,7 @@
   },
   {
     "name": "Solana Testnet",
-    "chainId": -3,
+    "chainId": 3,
     "infoURL": "https://solana.com",
     "nativeCurrency": {
       "name": "Solana",
