@@ -26,7 +26,7 @@
       }
     ],
     "isTest": false,
-    "networkType": "SOLANA"
+    "networkType": "SVM"
   },
   {
     "name": "Solana Devnet",
@@ -41,7 +41,6 @@
     "color": "#1de4b3",
     "rpc": [
       "https://solana-devnet.g.alchemy.com/v2/${ALCHEMY_API_KEY}",
-      "https://api.devnet.solana.com",
       "https://api.devnet.solana.com"
     ],
     "explorers": [
@@ -55,7 +54,7 @@
       }
     ],
     "isTest": true,
-    "networkType": "SOLANA"
+    "networkType": "SVM"
   },
   {
     "name": "Solana Testnet",
@@ -80,7 +79,7 @@
       }
     ],
     "isTest": true,
-    "networkType": "SOLANA"
+    "networkType": "SVM"
   },
   {
     "name": "Ethereum Mainnet",
@@ -1868,16 +1867,16 @@
     "color": "#3cbcec"
   },
   {
-    "name": "Klaytn Testnet Baobab",
+    "name": "Kaia Testnet Kairos",
     "chainId": 1001,
-    "infoURL": "https://klaytn.foundation",
+    "infoURL": "https://kaia.io/",
     "nativeCurrency": {
-      "name": "KLAY",
-      "symbol": "KLAY",
+      "name": "KAIA",
+      "symbol": "KAIA",
       "decimals": 18
     },
-    "chain": "KLAY",
-    "rpc": ["https://public-en-baobab.klaytn.net", "https://api.baobab.klaytn.net:8651"],
+    "chain": "KAIA",
+    "rpc": ["https://public-en.kairos.node.kaia.io"],
     "explorers": [
       {
         "name": "Klaytnscope",
@@ -1968,6 +1967,28 @@
     "isTest": false,
     "networkType": "EVM",
     "color": "#fb215c"
+  },
+  {
+    "name": "Bitcoin Protocol Testnet",
+    "chainId": 1227,
+    "infoURL": "https://btcprotocol.io/",
+    "nativeCurrency": {
+      "name": "BTC Protocol",
+      "symbol": "BTCP",
+      "decimals": 18
+    },
+    "chain": "BTCP Testnet",
+    "rpc": ["https://testnet-chain.btcprotocol.io/"],
+    "explorers": [
+      {
+        "name": "BTCP explorer",
+        "url": "https://explorer.btcprotocol.io",
+        "standard": "EIP3091"
+      }
+    ],
+    "isTest": true,
+    "networkType": "EVM",
+    "color": "#f4941c"
   },
   {
     "name": "Moonbeam",
@@ -2740,15 +2761,15 @@
     "color": "#fc9c29"
   },
   {
-    "name": "Klaytn Mainnet Cypress",
+    "name": "Kaia Mainnet",
     "chainId": 8217,
-    "infoURL": "https://klaytn.foundation",
+    "infoURL": "https://kaia.io",
     "nativeCurrency": {
-      "name": "KLAY",
-      "symbol": "KLAY",
+      "name": "KAIA",
+      "symbol": "KAIA",
       "decimals": 18
     },
-    "chain": "KLAY",
+    "chain": "KAIA",
     "rpc": ["https://public-en-cypress.klaytn.net"],
     "explorers": [
       {
@@ -4062,16 +4083,16 @@
     "color": "#1c7dc3"
   },
   {
-    "name": "MARS Credit",
+    "name": "Mars Credit",
     "chainId": 110110,
     "infoURL": "https://marscredit.xyz/",
     "nativeCurrency": {
-      "name": "Mars",
+      "name": "Mars Credit",
       "symbol": "MARS",
       "decimals": 18
     },
     "chain": "MARS",
-    "rpc": ["https://node99-production-dd5f.up.railway.app:443"],
+    "rpc": ["https://node99-production-dd5f.up.railway.app:443", "https://rpc.marscredit.xyz:443"],
     "explorers": [],
     "isTest": false,
     "networkType": "EVM",
