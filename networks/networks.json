@@ -67,9 +67,7 @@
     },
     "chain": "SOL",
     "color": "#1de4b3",
-    "rpc": [
-      "https://api.testnet.solana.com"
-    ],
+    "rpc": ["https://api.testnet.solana.com"],
     "explorers": [
       {
         "name": "solscan",
@@ -241,9 +239,7 @@
       "decimals": 18
     },
     "chain": "ETH",
-    "rpc": [
-      "https://rinkeby.boba.network/"
-    ],
+    "rpc": ["https://rinkeby.boba.network/"],
     "explorers": [
       {
         "name": "Blockscout",
@@ -265,10 +261,7 @@
       "decimals": 18
     },
     "chain": "Rootstock",
-    "rpc": [
-      "https://public-node.rsk.co",
-      "https://mycrypto.rsk.co"
-    ],
+    "rpc": ["https://public-node.rsk.co", "https://mycrypto.rsk.co"],
     "explorers": [
       {
         "name": "Rootstock Explorer",
@@ -296,10 +289,7 @@
       "decimals": 18
     },
     "chain": "Rootstock",
-    "rpc": [
-      "https://public-node.testnet.rsk.co",
-      "https://mycrypto.testnet.rsk.co"
-    ],
+    "rpc": ["https://public-node.testnet.rsk.co", "https://mycrypto.testnet.rsk.co"],
     "explorers": [
       {
         "name": "RSK Testnet Explorer",
@@ -495,9 +485,7 @@
       "decimals": 18
     },
     "chain": "EOS",
-    "rpc": [
-      "https://api.eosargentina.io"
-    ],
+    "rpc": ["https://api.eosargentina.io"],
     "explorers": [],
     "isTest": false,
     "networkType": "EVM",
@@ -513,9 +501,7 @@
       "decimals": 18
     },
     "chain": "GO",
-    "rpc": [
-      "https://rpc.gochain.io"
-    ],
+    "rpc": ["https://rpc.gochain.io"],
     "explorers": [
       {
         "name": "GoChain Explorer",
@@ -610,10 +596,7 @@
       "decimals": 18
     },
     "chain": "ETC",
-    "rpc": [
-      "https://rpc.mordor.etccooperative.org",
-      "https://geth-mordor.etc-network.info"
-    ],
+    "rpc": ["https://rpc.mordor.etccooperative.org", "https://geth-mordor.etc-network.info"],
     "explorers": [
       {
         "name": "blockscout-mordor",
@@ -640,9 +623,7 @@
       "decimals": 18
     },
     "chain": "ELLA",
-    "rpc": [
-      "https://jsonrpc.ellaism.org"
-    ],
+    "rpc": ["https://jsonrpc.ellaism.org"],
     "isTest": false,
     "networkType": "EVM",
     "color": "#6fbc42"
@@ -682,9 +663,7 @@
       "decimals": 18
     },
     "chain": "ETH",
-    "rpc": [
-      "https://kovan.optimism.io/"
-    ],
+    "rpc": ["https://kovan.optimism.io/"],
     "explorers": [
       {
         "name": "etherscan",
@@ -760,9 +739,7 @@
       "decimals": 18
     },
     "chain": "METER",
-    "rpc": [
-      "https://rpc.meter.io"
-    ],
+    "rpc": ["https://rpc.meter.io"],
     "explorers": [
       {
         "name": "Meter Mainnet Scan",
@@ -784,9 +761,7 @@
       "decimals": 18
     },
     "chain": "METER Testnet",
-    "rpc": [
-      "https://rpctest.meter.io"
-    ],
+    "rpc": ["https://rpctest.meter.io"],
     "explorers": [
       {
         "name": "Meter Testnet Scan",
@@ -808,9 +783,7 @@
       "decimals": 18
     },
     "chain": "Viction",
-    "rpc": [
-      "https://rpc.viction.xyz"
-    ],
+    "rpc": ["https://rpc.viction.xyz"],
     "isTest": false,
     "networkType": "EVM",
     "color": "#05ecb4"
@@ -825,9 +798,7 @@
       "decimals": 18
     },
     "chain": "Viction",
-    "rpc": [
-      "https://rpc-testnet.viction.xyz"
-    ],
+    "rpc": ["https://rpc-testnet.viction.xyz"],
     "isTest": true,
     "networkType": "EVM",
     "color": "#05ecb4"
@@ -873,9 +844,7 @@
       "decimals": 18
     },
     "chain": "POA",
-    "rpc": [
-      "https://core.poa.network"
-    ],
+    "rpc": ["https://core.poa.network"],
     "explorers": [
       {
         "name": "blockscout",
@@ -945,10 +914,7 @@
       "decimals": 18
     },
     "chain": "Heco",
-    "rpc": [
-      "https://http-mainnet.hecochain.com",
-      "wss://ws-mainnet.hecochain.com"
-    ],
+    "rpc": ["https://http-mainnet.hecochain.com", "wss://ws-mainnet.hecochain.com"],
     "explorers": [
       {
         "name": "hecoinfo",
@@ -1064,9 +1030,7 @@
       "decimals": 18
     },
     "chain": "ETH",
-    "rpc": [
-      "https://http-testnet.hoosmartchain.com"
-    ],
+    "rpc": ["https://http-testnet.hoosmartchain.com"],
     "isTest": true,
     "networkType": "EVM",
     "color": "#06e5cb"
@@ -1081,10 +1045,7 @@
       "decimals": 18
     },
     "chain": "iost",
-    "rpc": [
-      "https://iost-mainnet.alt.technology",
-      "wss://iost-mainnet.alt.technology/ws"
-    ],
+    "rpc": ["https://iost-mainnet.alt.technology", "wss://iost-mainnet.alt.technology/ws"],
     "explorers": [
       {
         "name": "IOSTscan",
@@ -1106,9 +1067,7 @@
       "decimals": 18
     },
     "chain": "AOX",
-    "rpc": [
-      "https://arbitrum.xdaichain.com/"
-    ],
+    "rpc": ["https://arbitrum.xdaichain.com/"],
     "explorers": [
       {
         "name": "blockscout",
@@ -1162,9 +1121,7 @@
       "decimals": 18
     },
     "chain": "ETH",
-    "rpc": [
-      "https://rpc.blastblockchain.com"
-    ],
+    "rpc": ["https://rpc.blastblockchain.com"],
     "explorers": [
       {
         "name": "Blast Mainnet",
@@ -1186,9 +1143,7 @@
       "decimals": 18
     },
     "chain": "CronosZkEVMTestnet",
-    "rpc": [
-      "https://testnet.zkevm.cronos.org"
-    ],
+    "rpc": ["https://testnet.zkevm.cronos.org"],
     "explorers": [
       {
         "name": "Cronos zkEVM Testnet Explorer",
@@ -1245,10 +1200,7 @@
       "decimals": 18
     },
     "chain": "Heco",
-    "rpc": [
-      "https://http-testnet.hecochain.com",
-      "wss://ws-testnet.hecochain.com"
-    ],
+    "rpc": ["https://http-testnet.hecochain.com", "wss://ws-testnet.hecochain.com"],
     "isTest": true,
     "networkType": "EVM",
     "color": "#0c9b44"
@@ -1263,9 +1215,7 @@
       "decimals": 18
     },
     "chain": "ETH",
-    "rpc": [
-      "https://testnet.era.zksync.dev"
-    ],
+    "rpc": ["https://testnet.era.zksync.dev"],
     "explorers": [
       {
         "name": "zkSync Era Block Explorer",
@@ -1288,9 +1238,7 @@
       "decimals": 18
     },
     "chain": "deprecatedCronosZkEVMTestnet",
-    "rpc": [
-      "https://deprecated.testnet.zkevm.cronos.org"
-    ],
+    "rpc": ["https://deprecated.testnet.zkevm.cronos.org"],
     "explorers": [
       {
         "name": "Cronos zkEVM Testnet Explorer",
@@ -1343,9 +1291,7 @@
       "decimals": 18
     },
     "chain": "Hedera",
-    "rpc": [
-      "https://mainnet.hashio.io/api"
-    ],
+    "rpc": ["https://mainnet.hashio.io/api"],
     "explorers": [
       {
         "name": "HashScan",
@@ -1387,9 +1333,7 @@
       "decimals": 18
     },
     "chain": "Hedera",
-    "rpc": [
-      "https://testnet.hashio.io/api"
-    ],
+    "rpc": ["https://testnet.hashio.io/api"],
     "explorers": [
       {
         "name": "HashScan",
@@ -1431,9 +1375,7 @@
       "decimals": 18
     },
     "chain": "Hedera",
-    "rpc": [
-      "https://previewnet.hashio.io/api"
-    ],
+    "rpc": ["https://previewnet.hashio.io/api"],
     "explorers": [
       {
         "name": "HashScan",
@@ -1578,9 +1520,7 @@
       "decimals": 18
     },
     "chain": "KCC",
-    "rpc": [
-      "https://rpc-testnet.kcc.network"
-    ],
+    "rpc": ["https://rpc-testnet.kcc.network"],
     "explorers": [
       {
         "name": "kcc-scan-testnet",
@@ -1602,11 +1542,7 @@
       "decimals": 18
     },
     "chain": "ETH",
-    "rpc": [
-      "https://mainnet.era.zksync.io",
-      "https://zksync.drpc.org",
-      "wss://zksync.drpc.org"
-    ],
+    "rpc": ["https://mainnet.era.zksync.io", "https://zksync.drpc.org", "wss://zksync.drpc.org"],
     "explorers": [
       {
         "name": "zkSync Era Block Explorer",
@@ -1655,9 +1591,7 @@
       "decimals": 18
     },
     "chain": "Theta",
-    "rpc": [
-      "https://eth-rpc-api.thetatoken.org/rpc"
-    ],
+    "rpc": ["https://eth-rpc-api.thetatoken.org/rpc"],
     "explorers": [
       {
         "name": "Theta Mainnet Explorer",
@@ -1679,9 +1613,7 @@
       "decimals": 18
     },
     "chain": "Theta",
-    "rpc": [
-      "https://eth-rpc-api-sapphire.thetatoken.org/rpc"
-    ],
+    "rpc": ["https://eth-rpc-api-sapphire.thetatoken.org/rpc"],
     "explorers": [
       {
         "name": "Theta Sapphire Testnet Explorer",
@@ -1703,9 +1635,7 @@
       "decimals": 18
     },
     "chain": "Theta",
-    "rpc": [
-      "https://eth-rpc-api-amber.thetatoken.org/rpc"
-    ],
+    "rpc": ["https://eth-rpc-api-amber.thetatoken.org/rpc"],
     "explorers": [
       {
         "name": "Theta Amber Testnet Explorer",
@@ -1727,9 +1657,7 @@
       "decimals": 18
     },
     "chain": "Theta",
-    "rpc": [
-      "https://eth-rpc-api-testnet.thetatoken.org/rpc"
-    ],
+    "rpc": ["https://eth-rpc-api-testnet.thetatoken.org/rpc"],
     "explorers": [
       {
         "name": "Theta Testnet Explorer",
@@ -1751,9 +1679,7 @@
       "decimals": 18
     },
     "chain": "CronosZkEVMMainnet",
-    "rpc": [
-      "https://mainnet.zkevm.cronos.org"
-    ],
+    "rpc": ["https://mainnet.zkevm.cronos.org"],
     "explorers": [
       {
         "name": "Cronos zkEVM (Mainnet) Chain Explorer",
@@ -1775,9 +1701,7 @@
       "decimals": 18
     },
     "chain": "NEAR",
-    "rpc": [
-      "https://eth-rpc.mainnet.near.org"
-    ],
+    "rpc": ["https://eth-rpc.mainnet.near.org"],
     "explorers": [
       {
         "name": "NEAR Explorer",
@@ -1799,9 +1723,7 @@
       "decimals": 18
     },
     "chain": "NEAR",
-    "rpc": [
-      "https://eth-rpc.testnet.near.org"
-    ],
+    "rpc": ["https://eth-rpc.testnet.near.org"],
     "explorers": [
       {
         "name": "NEAR Explorer",
@@ -1854,9 +1776,7 @@
       "decimals": 18
     },
     "chain": "ETH",
-    "rpc": [
-      "https://stardust.metis.io/?owner=588"
-    ],
+    "rpc": ["https://stardust.metis.io/?owner=588"],
     "explorers": [
       {
         "name": "blockscout",
@@ -1878,10 +1798,7 @@
       "decimals": 18
     },
     "chain": "mACA",
-    "rpc": [
-      "https://eth-rpc-tc9.aca-staging.network",
-      "wss://eth-rpc-tc9.aca-staging.network"
-    ],
+    "rpc": ["https://eth-rpc-tc9.aca-staging.network", "wss://eth-rpc-tc9.aca-staging.network"],
     "explorers": [
       {
         "name": "blockscout",
@@ -1928,9 +1845,7 @@
       "decimals": 18
     },
     "chain": "ETH",
-    "rpc": [
-      "https://goerli.gateway.metisdevops.link"
-    ],
+    "rpc": ["https://goerli.gateway.metisdevops.link"],
     "explorers": [
       {
         "name": "blockscout",
@@ -1952,10 +1867,7 @@
       "decimals": 18
     },
     "chain": "ACA",
-    "rpc": [
-      "https://eth-rpc-acala.aca-api.network",
-      "wss://eth-rpc-acala.aca-api.network"
-    ],
+    "rpc": ["https://eth-rpc-acala.aca-api.network", "wss://eth-rpc-acala.aca-api.network"],
     "explorers": [
       {
         "name": "blockscout",
@@ -1977,9 +1889,7 @@
       "decimals": 18
     },
     "chain": "CLO",
-    "rpc": [
-      "https://rpc.callistodao.org"
-    ],
+    "rpc": ["https://rpc.callistodao.org"],
     "explorers": [
       {
         "name": "blockscout-callisto-network",
@@ -2016,9 +1926,7 @@
       "decimals": 18
     },
     "chain": "WAN",
-    "rpc": [
-      "https://gwan-ssl.wandevs.org:56891/"
-    ],
+    "rpc": ["https://gwan-ssl.wandevs.org:56891/"],
     "explorers": [
       {
         "name": "wanscan",
@@ -2041,9 +1949,7 @@
       "decimals": 18
     },
     "chain": "Palm",
-    "rpc": [
-      "https://rpc.palmsmartchain.io"
-    ],
+    "rpc": ["https://rpc.palmsmartchain.io"],
     "explorers": [
       {
         "name": "Palm Smart Chain Explorer",
@@ -2065,9 +1971,7 @@
       "decimals": 18
     },
     "chain": "WAN",
-    "rpc": [
-      "https://gwan-ssl.wandevs.org:46891/"
-    ],
+    "rpc": ["https://gwan-ssl.wandevs.org:46891/"],
     "explorers": [
       {
         "name": "wanscan",
@@ -2090,9 +1994,7 @@
       "decimals": 18
     },
     "chain": "KAIA",
-    "rpc": [
-      "https://public-en-kairos.node.kaia.io"
-    ],
+    "rpc": ["https://public-en-kairos.node.kaia.io"],
     "explorers": [
       {
         "name": "Kaiascope",
@@ -2174,10 +2076,7 @@
       "decimals": 18
     },
     "chain": "WEMIX",
-    "rpc": [
-      "https://api.wemix.com",
-      "wss://ws.wemix.com"
-    ],
+    "rpc": ["https://api.wemix.com", "wss://ws.wemix.com"],
     "explorers": [
       {
         "name": "WEMIX Block Explorer",
@@ -2199,9 +2098,7 @@
       "decimals": 18
     },
     "chain": "BTCP Testnet",
-    "rpc": [
-      "https://testnet-chain.btcprotocol.io/"
-    ],
+    "rpc": ["https://testnet-chain.btcprotocol.io/"],
     "explorers": [
       {
         "name": "BTCP explorer",
@@ -2297,10 +2194,7 @@
       "decimals": 18
     },
     "chain": "Sei",
-    "rpc": [
-      "https://evm-rpc-testnet.sei-apis.com",
-      "wss://evm-ws-testnet.sei-apis.com"
-    ],
+    "rpc": ["https://evm-rpc-testnet.sei-apis.com", "wss://evm-ws-testnet.sei-apis.com"],
     "explorers": [
       {
         "name": "Seitrace",
@@ -2322,10 +2216,7 @@
       "decimals": 18
     },
     "chain": "Sei",
-    "rpc": [
-      "https://evm-rpc.sei-apis.com",
-      "wss://evm-ws.sei-apis.com"
-    ],
+    "rpc": ["https://evm-rpc.sei-apis.com", "wss://evm-ws.sei-apis.com"],
     "explorers": [
       {
         "name": "Seitrace",
@@ -2417,9 +2308,7 @@
       "decimals": 18
     },
     "chain": "ETINS",
-    "rpc": [
-      "https://rpc.etins.org"
-    ],
+    "rpc": ["https://rpc.etins.org"],
     "explorers": [
       {
         "name": "Ethereum Inscription Explorer",
@@ -2441,9 +2330,7 @@
       "decimals": 18
     },
     "chain": "ronin",
-    "rpc": [
-      "https://api.roninchain.com/rpc"
-    ],
+    "rpc": ["https://api.roninchain.com/rpc"],
     "explorers": [
       {
         "name": "Ronin Block Explorer",
@@ -2465,9 +2352,7 @@
       "decimals": 18
     },
     "chain": "Bitcoin EVM",
-    "rpc": [
-      "https://connect.bitcoinevm.com"
-    ],
+    "rpc": ["https://connect.bitcoinevm.com"],
     "explorers": [
       {
         "name": "Explorer",
@@ -2554,9 +2439,7 @@
       "decimals": 18
     },
     "chain": "KCC",
-    "rpc": [
-      "https://rpc-mainnet.kinggamer.org/"
-    ],
+    "rpc": ["https://rpc-mainnet.kinggamer.org/"],
     "explorers": [
       {
         "name": "King Of Legends Mainnet Explorer",
@@ -2579,9 +2462,7 @@
       "decimals": 18
     },
     "chain": "Polygon",
-    "rpc": [
-      "https://rpc.cardona.zkevm-rpc.com"
-    ],
+    "rpc": ["https://rpc.cardona.zkevm-rpc.com"],
     "explorers": [
       {
         "name": "polygonscan",
@@ -2603,10 +2484,7 @@
       "decimals": 18
     },
     "chain": "ETH",
-    "rpc": [
-      "https://goerli.boba.network/",
-      "wss://wss.goerli.boba.network/"
-    ],
+    "rpc": ["https://goerli.boba.network/", "wss://wss.goerli.boba.network/"],
     "explorers": [
       {
         "name": "Blockscout",
@@ -2700,9 +2578,7 @@
       "decimals": 18
     },
     "chain": "Merlin",
-    "rpc": [
-      "https://testnet-erigon-rpc.merlinchain.io"
-    ],
+    "rpc": ["https://testnet-erigon-rpc.merlinchain.io"],
     "explorers": [
       {
         "name": "L2scan",
@@ -2725,9 +2601,7 @@
       "decimals": 18
     },
     "chain": "iotex.io",
-    "rpc": [
-      "https://babel-api.mainnet.iotex.io"
-    ],
+    "rpc": ["https://babel-api.mainnet.iotex.io"],
     "explorers": [
       {
         "name": "iotexscan",
@@ -2749,9 +2623,7 @@
       "decimals": 18
     },
     "chain": "iotex.io",
-    "rpc": [
-      "https://babel-api.testnet.iotex.io"
-    ],
+    "rpc": ["https://babel-api.testnet.iotex.io"],
     "explorers": [
       {
         "name": "testnet iotexscan",
@@ -2804,9 +2676,7 @@
       "decimals": 18
     },
     "chain": "ETH",
-    "rpc": [
-      "https://rpc.testnet.mantle.xyz"
-    ],
+    "rpc": ["https://rpc.testnet.mantle.xyz"],
     "explorers": [
       {
         "name": "Mantle Testnet Explorer",
@@ -2828,9 +2698,7 @@
       "decimals": 18
     },
     "chain": "ETH",
-    "rpc": [
-      "https://rpc.sepolia.mantle.xyz"
-    ],
+    "rpc": ["https://rpc.sepolia.mantle.xyz"],
     "explorers": [
       {
         "name": "blockscout",
@@ -2945,9 +2813,7 @@
       "decimals": 18
     },
     "chain": "BounceBit",
-    "rpc": [
-      "https://fullnode-testnet.bouncebitapi.com/"
-    ],
+    "rpc": ["https://fullnode-testnet.bouncebitapi.com/"],
     "explorers": [
       {
         "name": "BBScan Testnet Explorer",
@@ -2969,9 +2835,7 @@
       "decimals": 18
     },
     "chain": "BounceBit",
-    "rpc": [
-      "https://fullnode-mainnet.bouncebitapi.com/"
-    ],
+    "rpc": ["https://fullnode-mainnet.bouncebitapi.com/"],
     "explorers": [
       {
         "name": "BBScan Mainnet Explorer",
@@ -3055,9 +2919,7 @@
       "decimals": 18
     },
     "chain": "BTC",
-    "rpc": [
-      "https://rpc.bitcoinevm.org"
-    ],
+    "rpc": ["https://rpc.bitcoinevm.org"],
     "explorers": [],
     "isTest": false,
     "networkType": "EVM",
@@ -3073,9 +2935,7 @@
       "decimals": 18
     },
     "chain": "KAIA",
-    "rpc": [
-      "https://public-en.node.kaia.io"
-    ],
+    "rpc": ["https://public-en.node.kaia.io"],
     "explorers": [
       {
         "name": "Kaiascope",
@@ -3290,9 +3150,7 @@
       "decimals": 18
     },
     "chain": "Arianee",
-    "rpc": [
-      "https://rpc.polygonsupernet.public.arianee.net"
-    ],
+    "rpc": ["https://rpc.polygonsupernet.public.arianee.net"],
     "explorers": [
       {
         "name": "Polygon Supernet Arianee Explorer",
@@ -3314,9 +3172,7 @@
       "decimals": 18
     },
     "chain": "EOS",
-    "rpc": [
-      "https://api.testnet.evm.eosnetwork.com"
-    ],
+    "rpc": ["https://api.testnet.evm.eosnetwork.com"],
     "explorers": [
       {
         "name": "EOS EVM Explorer",
@@ -3338,9 +3194,7 @@
       "decimals": 18
     },
     "chain": "EOS",
-    "rpc": [
-      "https://api.evm.eosnetwork.com"
-    ],
+    "rpc": ["https://api.evm.eosnetwork.com"],
     "explorers": [
       {
         "name": "EOS EVM Explorer",
@@ -3362,9 +3216,7 @@
       "decimals": 18
     },
     "chain": "CLO",
-    "rpc": [
-      "https://testnet-rpc.callisto.network/"
-    ],
+    "rpc": ["https://testnet-rpc.callisto.network/"],
     "isTest": true,
     "networkType": "EVM",
     "color": "#34cc8c"
@@ -3379,10 +3231,7 @@
       "decimals": 18
     },
     "chain": "Sapphire",
-    "rpc": [
-      "https://sapphire.oasis.io",
-      "wss://sapphire.oasis.io/ws"
-    ],
+    "rpc": ["https://sapphire.oasis.io", "wss://sapphire.oasis.io/ws"],
     "explorers": [
       {
         "name": "Oasis Sapphire Explorer",
@@ -3404,10 +3253,7 @@
       "decimals": 18
     },
     "chain": "Sapphire",
-    "rpc": [
-      "https://testnet.sapphire.oasis.io",
-      "wss://testnet.sapphire.oasis.io/ws"
-    ],
+    "rpc": ["https://testnet.sapphire.oasis.io", "wss://testnet.sapphire.oasis.io/ws"],
     "explorers": [
       {
         "name": "Oasis Sapphire Testnet Explorer",
@@ -3429,9 +3275,7 @@
       "decimals": 18
     },
     "chain": "ETH",
-    "rpc": [
-      "http://testnet-rpc.blastblockchain.com"
-    ],
+    "rpc": ["http://testnet-rpc.blastblockchain.com"],
     "explorers": [
       {
         "name": "Blast Testnet",
@@ -3508,9 +3352,7 @@
       "decimals": 18
     },
     "chain": "GO",
-    "rpc": [
-      "https://testnet-rpc.gochain.io"
-    ],
+    "rpc": ["https://testnet-rpc.gochain.io"],
     "explorers": [
       {
         "name": "GoChain Testnet Explorer",
@@ -3532,9 +3374,7 @@
       "decimals": 18
     },
     "chain": "WirexPay",
-    "rpc": [
-      "https://rpc.wirexpaychain.com"
-    ],
+    "rpc": ["https://rpc.wirexpaychain.com"],
     "explorers": [
       {
         "name": "Wirex Pay Explorer",
@@ -3556,10 +3396,7 @@
       "decimals": 18
     },
     "chain": "FSN",
-    "rpc": [
-      "https://mainnet.fusionnetwork.io",
-      "wss://mainnet.fusionnetwork.io"
-    ],
+    "rpc": ["https://mainnet.fusionnetwork.io", "wss://mainnet.fusionnetwork.io"],
     "explorers": [
       {
         "name": "fsnscan",
@@ -3582,9 +3419,7 @@
       "decimals": 18
     },
     "chain": "ZIL",
-    "rpc": [
-      "https://api.zilliqa.com"
-    ],
+    "rpc": ["https://api.zilliqa.com"],
     "explorers": [
       {
         "name": "Zilliqa EVM Explorer",
@@ -3606,9 +3441,7 @@
       "decimals": 18
     },
     "chain": "ZIL",
-    "rpc": [
-      "https://api.zq2-protomainnet.zilliqa.com"
-    ],
+    "rpc": ["https://api.zq2-protomainnet.zilliqa.com"],
     "explorers": [
       {
         "name": "Zilliqa 2 EVM proto-mainnet explorer",
@@ -3630,9 +3463,7 @@
       "decimals": 18
     },
     "chain": "ZIL",
-    "rpc": [
-      "https://zilliqa-isolated-server.zilliqa.com/"
-    ],
+    "rpc": ["https://zilliqa-isolated-server.zilliqa.com/"],
     "explorers": [
       {
         "name": "Zilliqa EVM Isolated Server Explorer",
@@ -3654,9 +3485,7 @@
       "decimals": 18
     },
     "chain": "ZIL",
-    "rpc": [
-      "https://dev-api.zilliqa.com"
-    ],
+    "rpc": ["https://dev-api.zilliqa.com"],
     "explorers": [
       {
         "name": "Zilliqa EVM Explorer",
@@ -3678,9 +3507,7 @@
       "decimals": 18
     },
     "chain": "ZIL",
-    "rpc": [
-      "https://api.zq2-prototestnet.zilliqa.com"
-    ],
+    "rpc": ["https://api.zq2-prototestnet.zilliqa.com"],
     "explorers": [
       {
         "name": "Zilliqa 2 EVM proto-testnet explorer",
@@ -3702,9 +3529,7 @@
       "decimals": 18
     },
     "chain": "ZIL",
-    "rpc": [
-      "https://api.devnet.zilliqa.com/"
-    ],
+    "rpc": ["https://api.devnet.zilliqa.com/"],
     "explorers": [
       {
         "name": "Zilliqa EVM Devnet Explorer",
@@ -3726,9 +3551,7 @@
       "decimals": 18
     },
     "chain": "ZIL",
-    "rpc": [
-      "https://api.zq2-devnet.zilliqa.com"
-    ],
+    "rpc": ["https://api.zq2-devnet.zilliqa.com"],
     "explorers": [
       {
         "name": "Zilliqa-2 EVM Devnet Explorer",
@@ -3816,10 +3639,7 @@
       "decimals": 18
     },
     "chain": "CELO",
-    "rpc": [
-      "https://forno.celo.org",
-      "wss://forno.celo.org/ws"
-    ],
+    "rpc": ["https://forno.celo.org", "wss://forno.celo.org/ws"],
     "explorers": [
       {
         "name": "Celoscan",
@@ -3846,10 +3666,7 @@
       "decimals": 18
     },
     "chain": "Emerald",
-    "rpc": [
-      "https://testnet.emerald.oasis.io/",
-      "wss://testnet.emerald.oasis.io/ws"
-    ],
+    "rpc": ["https://testnet.emerald.oasis.io/", "wss://testnet.emerald.oasis.io/ws"],
     "explorers": [
       {
         "name": "Oasis Emerald Testnet Explorer",
@@ -3871,10 +3688,7 @@
       "decimals": 18
     },
     "chain": "Emerald",
-    "rpc": [
-      "https://emerald.oasis.io",
-      "wss://emerald.oasis.io/ws"
-    ],
+    "rpc": ["https://emerald.oasis.io", "wss://emerald.oasis.io/ws"],
     "explorers": [
       {
         "name": "Oasis Emerald Explorer",
@@ -4020,10 +3834,7 @@
       "decimals": 18
     },
     "chain": "FSN",
-    "rpc": [
-      "https://testnet.fusionnetwork.io",
-      "wss://testnet.fusionnetwork.io"
-    ],
+    "rpc": ["https://testnet.fusionnetwork.io", "wss://testnet.fusionnetwork.io"],
     "explorers": [
       {
         "name": "fsnscan",
@@ -4046,10 +3857,7 @@
       "decimals": 18
     },
     "chain": "Neo X",
-    "rpc": [
-      "https://mainnet-1.rpc.banelabs.org",
-      "https://mainnet-2.rpc.banelabs.org"
-    ],
+    "rpc": ["https://mainnet-1.rpc.banelabs.org", "https://mainnet-2.rpc.banelabs.org"],
     "explorers": [
       {
         "name": "Neo X - Explorer",
@@ -4119,9 +3927,7 @@
       "decimals": 18
     },
     "chain": "ETH",
-    "rpc": [
-      "https://sepolia.publicgoods.network"
-    ],
+    "rpc": ["https://sepolia.publicgoods.network"],
     "explorers": [
       {
         "name": "blockscout",
@@ -4282,9 +4088,7 @@
       "decimals": 18
     },
     "chain": "CELO",
-    "rpc": [
-      "https://baklava-forno.celo-testnet.org"
-    ],
+    "rpc": ["https://baklava-forno.celo-testnet.org"],
     "isTest": true,
     "networkType": "EVM",
     "color": "#34d47c"
@@ -4489,9 +4293,7 @@
       "decimals": 18
     },
     "chain": "VeChain",
-    "rpc": [
-      "https://rpc-mainnet.vechain.energy"
-    ],
+    "rpc": ["https://rpc-mainnet.vechain.energy"],
     "explorers": [
       {
         "name": "VeChain Stats",
@@ -4518,9 +4320,7 @@
       "decimals": 18
     },
     "chain": "VeChain",
-    "rpc": [
-      "https://rpc-testnet.vechain.energy"
-    ],
+    "rpc": ["https://rpc-testnet.vechain.energy"],
     "explorers": [
       {
         "name": "VeChain Explorer",
@@ -4542,9 +4342,7 @@
       "decimals": 18
     },
     "chain": "Stratis",
-    "rpc": [
-      "https://rpc.stratisevm.com"
-    ],
+    "rpc": ["https://rpc.stratisevm.com"],
     "explorers": [
       {
         "name": "Stratis Explorer",
@@ -4566,10 +4364,7 @@
       "decimals": 18
     },
     "chain": "MARS",
-    "rpc": [
-      "https://node99-production-dd5f.up.railway.app:443",
-      "https://rpc.marscredit.xyz:443"
-    ],
+    "rpc": ["https://node99-production-dd5f.up.railway.app:443", "https://rpc.marscredit.xyz:443"],
     "explorers": [],
     "isTest": false,
     "networkType": "EVM",
@@ -4585,10 +4380,7 @@
       "decimals": 18
     },
     "chain": "PlatON",
-    "rpc": [
-      "https://openapi2.platon.network/rpc",
-      "wss://openapi2.platon.network/ws"
-    ],
+    "rpc": ["https://openapi2.platon.network/rpc", "wss://openapi2.platon.network/ws"],
     "explorers": [
       {
         "name": "PlatON explorer",
@@ -4660,9 +4452,7 @@
       "decimals": 18
     },
     "chain": "ETH",
-    "rpc": [
-      "https://rinkeby.arbitrum.io/rpc"
-    ],
+    "rpc": ["https://rinkeby.arbitrum.io/rpc"],
     "explorers": [
       {
         "name": "arbiscan-testnet",
@@ -4747,9 +4537,7 @@
       "decimals": 18
     },
     "chain": "ETHF",
-    "rpc": [
-      "https://rpc.etherfair.org"
-    ],
+    "rpc": ["https://rpc.etherfair.org"],
     "explorers": [
       {
         "name": "EthereumFair",
@@ -4828,9 +4616,7 @@
       "decimals": 18
     },
     "chain": "ETH",
-    "rpc": [
-      "https://alpha-rpc.scroll.io/l2"
-    ],
+    "rpc": ["https://alpha-rpc.scroll.io/l2"],
     "explorers": [
       {
         "name": "Scroll Alpha Testnet Block Explorer",
@@ -4868,10 +4654,7 @@
       "decimals": 18
     },
     "chain": "Sei",
-    "rpc": [
-      "https://evm-rpc-arctic-1.sei-apis.com",
-      "https://evm-rpc.arctic-1.seinetwork.io"
-    ],
+    "rpc": ["https://evm-rpc-arctic-1.sei-apis.com", "https://evm-rpc.arctic-1.seinetwork.io"],
     "explorers": [
       {
         "name": "Seistream",
@@ -4898,10 +4681,7 @@
       "decimals": 18
     },
     "chain": "ETH",
-    "rpc": [
-      "https://rpc.zklink.io",
-      "wss://rpc.zklink.io"
-    ],
+    "rpc": ["https://rpc.zklink.io", "wss://rpc.zklink.io"],
     "explorers": [
       {
         "name": "zkLink Nova Block Explorer",
@@ -4924,10 +4704,7 @@
       "decimals": 18
     },
     "chain": "ETH",
-    "rpc": [
-      "https://sepolia.rpc.zklink.io",
-      "wss://sepolia.rpc.zklink.io"
-    ],
+    "rpc": ["https://sepolia.rpc.zklink.io", "wss://sepolia.rpc.zklink.io"],
     "explorers": [
       {
         "name": "zkLink Nova Block Explorer",
@@ -4950,10 +4727,7 @@
       "decimals": 18
     },
     "chain": "ETH",
-    "rpc": [
-      "https://goerli.rpc.zklink.io",
-      "wss://goerli.rpc.zklink.io"
-    ],
+    "rpc": ["https://goerli.rpc.zklink.io", "wss://goerli.rpc.zklink.io"],
     "explorers": [
       {
         "name": "zkLink Nova Block Explorer",
@@ -4976,10 +4750,7 @@
       "decimals": 18
     },
     "chain": "PlatON",
-    "rpc": [
-      "https://devnetopenapi2.platon.network/rpc",
-      "wss://devnetopenapi2.platon.network/ws"
-    ],
+    "rpc": ["https://devnetopenapi2.platon.network/rpc", "wss://devnetopenapi2.platon.network/ws"],
     "explorers": [
       {
         "name": "PlatON explorer",
@@ -5001,10 +4772,7 @@
       "decimals": 18
     },
     "chain": "PlatON",
-    "rpc": [
-      "https://devnet2openapi.platon.network/rpc",
-      "wss://devnet2openapi.platon.network/ws"
-    ],
+    "rpc": ["https://devnet2openapi.platon.network/rpc", "wss://devnet2openapi.platon.network/ws"],
     "explorers": [
       {
         "name": "PlatON explorer",
@@ -5068,9 +4836,7 @@
       "decimals": 18
     },
     "chain": "Manta Pacific",
-    "rpc": [
-      "https://pacific-rpc.sepolia-testnet.manta.network/http"
-    ],
+    "rpc": ["https://pacific-rpc.sepolia-testnet.manta.network/http"],
     "explorers": [
       {
         "name": "manta-testnet Explorer",
@@ -5139,9 +4905,7 @@
       "decimals": 18
     },
     "chain": "Neo X",
-    "rpc": [
-      "https://testnet.rpc.banelabs.org/"
-    ],
+    "rpc": ["https://testnet.rpc.banelabs.org/"],
     "explorers": [
       {
         "name": "neox-scan",
@@ -5264,9 +5028,7 @@
       "decimals": 18
     },
     "chain": "Solana",
-    "rpc": [
-      "https://devnet.rollup.neonevm.org/"
-    ],
+    "rpc": ["https://devnet.rollup.neonevm.org/"],
     "explorers": [],
     "isTest": false,
     "networkType": "EVM",
@@ -5313,9 +5075,7 @@
       "decimals": 18
     },
     "chain": "Solana",
-    "rpc": [
-      "https://testnet.neonevm.org"
-    ],
+    "rpc": ["https://testnet.neonevm.org"],
     "explorers": [
       {
         "name": "native",
@@ -5342,10 +5102,7 @@
       "decimals": 6
     },
     "chain": "TRON",
-    "rpc": [
-      "https://rpc.ankr.com/tron_jsonrpc",
-      "https://api.trongrid.io/jsonrpc"
-    ],
+    "rpc": ["https://rpc.ankr.com/tron_jsonrpc", "https://api.trongrid.io/jsonrpc"],
     "explorers": [
       {
         "name": "tronscan",
@@ -5368,11 +5125,7 @@
       "decimals": 18
     },
     "chain": "NEAR",
-    "rpc": [
-      "https://mainnet.aurora.dev",
-      "https://aurora.drpc.org",
-      "wss://aurora.drpc.org"
-    ],
+    "rpc": ["https://mainnet.aurora.dev", "https://aurora.drpc.org", "wss://aurora.drpc.org"],
     "explorers": [
       {
         "name": "Aurora Explorer",
@@ -5435,9 +5188,7 @@
       "decimals": 18
     },
     "chain": "NEAR",
-    "rpc": [
-      "https://powergold.aurora.dev"
-    ],
+    "rpc": ["https://powergold.aurora.dev"],
     "explorers": [
       {
         "name": "PowerGold explorer",
@@ -5459,9 +5210,7 @@
       "decimals": 18
     },
     "chain": "NEAR",
-    "rpc": [
-      "https://rpc-0x4e45415f.aurora-cloud.dev"
-    ],
+    "rpc": ["https://rpc-0x4e45415f.aurora-cloud.dev"],
     "explorers": [
       {
         "name": "Turbo explorer",
@@ -5483,9 +5232,7 @@
       "decimals": 18
     },
     "chain": "NEAR",
-    "rpc": [
-      "https://rpc-0x4e454165.aurora-cloud.dev"
-    ],
+    "rpc": ["https://rpc-0x4e454165.aurora-cloud.dev"],
     "explorers": [
       {
         "name": "TUXA explorer",
@@ -5537,11 +5284,7 @@
       "decimals": 18
     },
     "chain": "Harmony",
-    "rpc": [
-      "https://api.s1.t.hmny.io",
-      "https://harmony-1.drpc.org",
-      "wss://harmony-1.drpc.org"
-    ],
+    "rpc": ["https://api.s1.t.hmny.io", "https://harmony-1.drpc.org", "wss://harmony-1.drpc.org"],
     "explorers": [
       {
         "name": "Harmony Block Explorer",
@@ -5563,9 +5306,7 @@
       "decimals": 18
     },
     "chain": "Harmony",
-    "rpc": [
-      "https://api.s2.t.hmny.io"
-    ],
+    "rpc": ["https://api.s2.t.hmny.io"],
     "explorers": [
       {
         "name": "Harmony Block Explorer",
@@ -5587,9 +5328,7 @@
       "decimals": 18
     },
     "chain": "Harmony",
-    "rpc": [
-      "https://api.s3.t.hmny.io"
-    ],
+    "rpc": ["https://api.s3.t.hmny.io"],
     "explorers": [
       {
         "name": "Harmony Block Explorer",
@@ -5611,9 +5350,7 @@
       "decimals": 18
     },
     "chain": "Harmony",
-    "rpc": [
-      "https://api.s0.b.hmny.io"
-    ],
+    "rpc": ["https://api.s0.b.hmny.io"],
     "explorers": [
       {
         "name": "Harmony Testnet Block Explorer",
@@ -5635,9 +5372,7 @@
       "decimals": 18
     },
     "chain": "Harmony",
-    "rpc": [
-      "https://api.s1.b.hmny.io"
-    ],
+    "rpc": ["https://api.s1.b.hmny.io"],
     "explorers": [
       {
         "name": "Harmony Block Explorer",
@@ -5659,9 +5394,7 @@
       "decimals": 18
     },
     "chain": "Harmony",
-    "rpc": [
-      "https://api.s0.ps.hmny.io"
-    ],
+    "rpc": ["https://api.s0.ps.hmny.io"],
     "explorers": [],
     "isTest": false,
     "networkType": "EVM",
@@ -5677,9 +5410,7 @@
       "decimals": 18
     },
     "chain": "Harmony",
-    "rpc": [
-      "https://api.s1.ps.hmny.io"
-    ],
+    "rpc": ["https://api.s1.ps.hmny.io"],
     "explorers": [],
     "isTest": false,
     "networkType": "EVM",
@@ -5755,10 +5486,7 @@
       "decimals": 18
     },
     "chain": "ETH",
-    "rpc": [
-      "https://rpc.arb-blueberry.gelato.digital",
-      "wss://ws.arb-blueberry.gelato.digital"
-    ],
+    "rpc": ["https://rpc.arb-blueberry.gelato.digital", "wss://ws.arb-blueberry.gelato.digital"],
     "explorers": [
       {
         "name": "blockscout",
